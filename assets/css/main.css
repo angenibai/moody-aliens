@@ -46,11 +46,11 @@ h2 {
 }
 
 .map-link {
-	color: var(--main-red);
+	color: var(--main-blue);
 }
 
 .map-link:hover {
-	color: var(--hover-red);
+	color: var(--main-blue);
 }
 
 .card-deck {
