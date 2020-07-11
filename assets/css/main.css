@@ -7,3 +7,7 @@
 body {
 	font-family: 'Noto Sans', sans-serif;
 }
+
+.user-details {
+	font-weight: bold;
+}
