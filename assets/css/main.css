@@ -2,39 +2,59 @@
 
 :root {
 	--main-blue: #436EB0;
-
+	--main-red: #bb1221;
+	--hover-red: #990b20;
 }
 
 body {
 	font-family: 'Noto Sans', sans-serif;
 }
 
-.search-text {
-	font-size: 3em;
+.row {
+	margin-bottom: 0.6em;
 }
 
-.user-details {
+h2 {
+	font-size: 2.5em;
+}
+
+
+.search-text {
+	font-size: 2.5em;
+	line-height: 1.5em;
+}
+
+.search-info {
+	font-size: 2.5em;
 	font-weight: 700;
 }
 
-.search-button {
-	font-size: 1.5em;
-}
-
-.search-container {
-	margin: 2em 0em;
+.search-info-wrapper {
+	padding-left: 0;
 }
 
 #page-wrapper {
 	margin: 2em 0em;
 }
 
+.search-info {
+	color: black;
+}
+
+.search-info:hover {
+	color: gray;
+}
+
 .map-link {
-	color: red;
+	color: var(--main-red);
 }
 
 .map-link:hover {
-	color: red;
+	color: var(--hover-red);
+}
+
+.card-deck {
+	margin-top: 2em;
 }
 
 .card-subtitle {
@@ -43,4 +63,23 @@ body {
 
 .card-text {
 	margin: 0.5em 0;
+}
+
+
+span {
+	display: inline-block;
+}
+
+
+@media (max-width: 590px) {
+	#looking {
+		font-size: 2.5em;
+		line-height: 0.7em;
+	}
+	#resource-name {
+		padding-top: 0;
+	}
+	#resource-name-wrapper {
+		padding-left: 15px;
+	}
 }
