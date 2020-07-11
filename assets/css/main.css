@@ -2,6 +2,7 @@
 
 :root {
 	--main-blue: #436EB0;
+
 }
 
 body {
@@ -26,4 +27,20 @@ body {
 
 #page-wrapper {
 	margin: 2em 0em;
+}
+
+.map-link {
+	color: red;
+}
+
+.map-link:hover {
+	color: red;
+}
+
+.card-subtitle {
+	margin: 0.5em 0;
+}
+
+.card-text {
+	margin: 0.5em 0;
 }
