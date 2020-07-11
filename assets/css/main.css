@@ -8,6 +8,10 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 }
 
+.search-text {
+	font-size: 3em;
+}
+
 .user-details {
 	font-weight: 700;
 }
@@ -16,6 +20,10 @@ body {
 	font-size: 1.5em;
 }
 
+.search-container {
+	margin: 2em 0em;
+}
+
 #page-wrapper {
-	margin: 2em;
+	margin: 2em 0em;
 }
