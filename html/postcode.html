@@ -5,9 +5,10 @@
 		<title>Resource Hub</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+
 		<!--Import Bootstrap-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="../assets/css/main.css" />
 	</head>
     <body>
 
@@ -55,6 +56,10 @@
         background-color: DodgerBlue !important;
         color: #ffffff;
         }
+		.btn-outline-info {
+			padding: 0.5em 0.8em;
+			font-size: 1em;
+		}
     </style>
 
         <div class="container align-self-center" autocomplete="off">
@@ -76,7 +81,7 @@
             var postcodes = ["2100", "1385", "2012", "2401", "2345", "2200", "2130", "2145"];
 
             autocomplete(document.getElementById("myInput"), postcodes);
-            
+
             function autocomplete(inp, arr) {
             var currentFocus;
             inp.addEventListener("input", function(e) {
@@ -144,7 +149,7 @@
             }
 
         </script>
-        
+
 
 	<!-- Scripts -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
