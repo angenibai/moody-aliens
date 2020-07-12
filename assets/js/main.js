@@ -8,8 +8,8 @@ input.addEventListener("keyup", function(event) {
 
 function openWeb() {
     var input = document.getElementById("myInput").value;
-    if (input == "2100") {
-        window.open("https://www.w3schools.com");
+    if (input == "3875") {
+        window.open("../html/select_resource.html");
     } else {
         alert("Please enter a valid postcode!");
     }
