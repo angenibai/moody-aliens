@@ -57,6 +57,10 @@ h2 {
 	margin-top: 2em;
 }
 
+.card-title {
+	font-weight: bold;
+}
+
 .card-subtitle {
 	margin: 0.5em 0;
 }
