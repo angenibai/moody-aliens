@@ -75,18 +75,7 @@ span {
 }
 
 
-@media (max-width: 590px) {
-	#looking {
-		font-size: 2.5em;
-		line-height: 0.7em;
-	}
-	#resource-name {
-		padding-top: 0;
-	}
-	#resource-name-wrapper {
-		padding-left: 15px;
-	}
-}
+
 
 .btn-outline-info {
 	padding: 1em;
