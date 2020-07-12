@@ -57,6 +57,10 @@ h2 {
 	margin-top: 2em;
 }
 
+.card-title {
+	font-weight: bold;
+}
+
 .card-subtitle {
 	margin: 0.5em 0;
 }
@@ -82,4 +86,11 @@ span {
 	#resource-name-wrapper {
 		padding-left: 15px;
 	}
+}
+
+.btn-outline-info {
+	padding: 1em;
+	font-size: 1.3em;
+	max-width: 300px;
+	margin: auto;
 }
